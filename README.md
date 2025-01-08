@@ -1,7 +1,7 @@
 # 🎨 Neural Style Transfer using Convolutional Neural Networks (CNN) 🎨
 
 ## Overview 🔍🌟🗺
-This project explores the advanced implementation of Neural Style Transfer (NST) for artistic image synthesis. By leveraging pre-trained Convolutional Neural Networks (CNNs), the method combines the structural elements of a content image with the stylistic attributes of a reference image using the VGG-19 architecture, resulting in visually captivating compositions.
+This project examines the sophisticated implementation of Neural Style Transfer (NST) for artistic image synthesis by leveraging pre-trained Convolutional Neural Networks (CNNs). Specifically, it integrates the structural elements of a content image with the stylistic attributes of a reference image using the VGG-19 architecture, resulting in visually engaging compositions.
 
 ---
 
@@ -79,6 +79,27 @@ This project explores the advanced implementation of Neural Style Transfer (NST)
    ```bash
    pip install torch torchvision matplotlib pillow
    ```
-2. Prepare content and style images
+2. Prepare content and style images (recommended size: 400x400 pixels).
+3. Execute the Jupyter Notebook to initiate the NST pipeline.
+4. Save the generated image for subsequent use.
 
+---
 
+## Future Enhancements 🎨🌐⏳
+- **Real-Time Applications**: Extending NST to dynamic video frames and interactive use cases.
+- **Multi-Style Transfer**: Incorporating multiple stylistic references within a single output.
+- **Higher Resolution Support**: Enhancing output quality for professional-grade applications.
+- **Enhanced User Controls**: Introducing user-adjustable parameters to refine content and style balance.
+
+---
+
+## Acknowledgments 👨‍🎓✨🔗
+- This work is inspired by Gatys et al.’s "A Neural Algorithm of Artistic Style."
+- The VGG-19 model was sourced via PyTorch’s pre-trained model repository.
+
+---
+
+## References 🔖
+1. Gatys, L. A., Ecker, A. S., & Bethge, M. (2016). *Image Style Transfer Using Convolutional Neural Networks*. In CVPR.
+2. Johnson, J., Alahi, A., & Fei-Fei, L. (2016). *Perceptual Losses for Real-Time Style Transfer and Super-Resolution*. In ECCV.
+3. Simonyan, K., & Zisserman, A. (2014). *Very Deep Convolutional Networks for Large-Scale Image Recognition*. arXiv.
