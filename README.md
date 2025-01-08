@@ -1,4 +1,3 @@
-# Neural_StyleTransfer_CNN
 # 🎨 Neural Style Transfer using Convolutional Neural Networks (CNN) 🎨
 
 ## Overview 🔍🌟🗺
